@@ -23,7 +23,7 @@ function lakukanLooping(arrPegawai) {
 
       Contoh: ["Aisyah Nirmala", "Mansur Faisal", ...]
   */
-  let hasilLooping = null;
+  let hasilLooping = [];
   for(let i = 0; i < arrPegawai.length; i++) {
     hasilLooping.push(dataYangAkanDilooping[i].namaDepan + " " + (dataYangAkanDilooping[i].namaBelakang))
   }
